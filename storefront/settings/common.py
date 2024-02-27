@@ -92,9 +92,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'storefront.wsgi.application'
 
 
-
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -166,9 +163,8 @@ SIMPLE_JWT = {
 DEFAULT_FROM_EMAIL = 'from@watmart.com'
 
 ADMINS = [
-    ('Geuse', 'admin@watmart.com')
+    ('Watmart', 'admin@watmartbuy.com')
 ]
-
 
 CELERY_BEAT_SCHEDULE = {
     'notify_customers': {
@@ -200,7 +196,7 @@ LOGGING = {
     'formatters': {
         'verbose': {
             'format': '{asctime} ({levelname}) - {name} - {message}',
-            'style': '{' 
+            'style': '{'
         }
     }
 }
