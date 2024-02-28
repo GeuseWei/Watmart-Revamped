@@ -26,8 +26,8 @@ To run this project, you need to have Docker and Docker Compose installed on you
 
 1. **Clone the repository**
 
-git clone [your-repo-link]
-cd [your-repo-name]
+`git clone [your-repo-link]`
+`cd [your-repo-name]`
 
 
 2. **Setup Environment**
@@ -36,7 +36,7 @@ Before starting the service, ensure you have set up the necessary environment va
 
 3. **Build and Run with Docker Compose**
 
-docker-compose up --build
+`docker-compose up --build`
 
 
 This command builds the Docker images and starts the services defined in your `docker-compose.yml` file.
@@ -57,4 +57,4 @@ After starting the services, you can use the Django application to manage produc
 
 For running tests, use the `tests` service defined in the Docker Compose file.
 
-docker-compose run tests
+`docker-compose run tests`
